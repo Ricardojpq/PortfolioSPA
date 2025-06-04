@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 51, 65, 85;
+  --background-rgb: 248, 250, 252;
+}
+
+[data-theme="dark"] {
+  --foreground-rgb: 230, 241, 255;
+  --background-rgb: 10, 25, 47;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Inter", sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 146, 176, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(136, 146, 176, 0.8);
+}
+
+/* Cursor follower styles */
+.cursor-follower {
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* Element highlight when cursor is near */
+.cursor-highlight {
+  transition: all 0.3s ease;
+  filter: brightness(1.2);
+  box-shadow: 0 0 15px rgba(255, 157, 0, 0.5);
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(90deg, #ff9d00, #ff3d71, #a346ff, #00b8ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 300% 100%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glow effect for elements */
+.glow-effect {
+  box-shadow: 0 0 15px rgba(255, 157, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 25px rgba(255, 157, 0, 0.8);
+}
+
+/* Add highlight-on-hover class to elements you want to highlight when cursor is near */
+.highlight-on-hover {
+  transition: all 0.3s ease;
+}

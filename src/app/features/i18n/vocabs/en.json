@@ -1,0 +1,99 @@
+{
+  "myInfo": {
+    "fullName": "Ricardo Pérez",
+    "email": "Ricardoperezquintero26@gmail.com"
+  },
+  "landing": {
+    "greeting": "Hi!",
+    "welcome": "Welcome to my FullStack Developer Portfolio",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps",
+    "exploreButton": "Explore Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hi! My name is",
+    "role": "FullStack Developer.",
+    "description": "I 'm a developer specialized in building exceptional digital experiences. Currently, I focus on creating accessible and robust web applications that solve real problems.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "bio1": "Hi! I'm Ricardo Perez, FullStack developer. My career in web development as a freelancer started in 2021 and, since then, I have grown professionally learning new technologies.",
+    "bio2": "I specialize in web application development using modern technologies such as Angular, React, Node.js, .NET and SQL/NoSQL databases. I focus on creating modern and intuitive web/apps backed by robust and scalable backend architectures.",
+    "bio3": "In my spare time I always try to update my repertoire. I strongly believe in continuous learning and am always exploring new technologies and methodologies to improve my skills.",
+    "recentTech": "Technologies I've worked with recently:",
+    "education": "Education and Certifications",
+    "degree": "Systems Analyst",
+    "university": "Universidad Centroccidental “Lisandro Alvarado” • 2023",
+    "specialization": "",
+    "certifications": "Complementary training"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "job1": {
+      "title": "Freelancer Developer",
+      "company": "",
+      "period": "2021 - Present",
+      "description": [
+        "I have applied my knowledge in JavaScript/TypeScript, C# and .NET in a variety of projects to solve complex challenges.",
+        "Where I gained experience developing with React, Angular, Node.js, Express.js and managing various databases (MongoDB, MS SQL Server, PostgreSQL), always looking for the best technological solution."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "project0": {
+      "title": "Multitenant Lottery App with .NET Microservices, Angular, MongoDB and SqlServer. (In Development)",
+      "description": "This multitenant application is built on a .NET microservices architecture, with dedicated services for authentication and queries that leverage EF Core to manage data in SQL Server and MongoDB in a hybrid way. On the frontend, a SPA developed in Angular and TypeScript provides an intuitive interface for managing sweepstakes and raffles, communicating with the microservices via HTTP and keeping the configuration isolated per tenant."
+    },
+    "project1": {
+      "title": "E-commerce Platform",
+      "description": "A complete e-commerce platform with shopping cart, payment gateway, and admin panel."
+    },
+    "project2": {
+      "title": "Task Management App",
+      "description": "Task management application with drag-and-drop functionality, custom labels, and real-time collaboration."
+    },
+    "project3": {
+      "title": "Weather Dashboard",
+      "description": "Interactive dashboard that displays real-time weather forecasts with data visualizations and custom alerts."
+    },
+    "project4": {
+      "title": "Blog Platform",
+      "description": "Blog platform with rich text editor, comment system, and integrated traffic analytics."
+    },
+    "code": "Code",
+    "demo": "Demo",
+    "moreProjects": "More projects on GitHub",
+    "viewRepo": "View Repository"
+  },
+  "contact": {
+    "whatsNext": "What's Next?",
+    "title": "Get In Touch",
+    "description": "I'm currently looking for new opportunities and my inbox is always open. Whether you have a question or just want to say hi, I'll do my best to get back to you!",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "sendButton": "Send Message",
+    "alternateContact": "You can also contact me directly through:",
+    "rights": "All rights reserved",
+    "sendEmail": "Send email"
+  },
+  "footer": {
+    "designed": "Designed and developed by"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "es": "Spanish"
+  }
+}

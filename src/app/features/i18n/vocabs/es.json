@@ -1,0 +1,99 @@
+{
+  "myInfo": {
+    "fullName": "Ricardo Pérez",
+    "email": "Ricardoperezquintero26@gmail.com"
+  },
+  "landing": {
+    "greeting": "¡Hola!",
+    "welcome": "Bienvenido a mi portfolio de desarrollador FullStack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps",
+    "exploreButton": "Explorar Portfolio"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "greeting": "¡Hola! Mi nombre es",
+    "role": "Desarrollador FullStack.",
+    "description": "Soy un desarrollador especializado en construir experiencias digitales excepcionales. Actualmente, me centro en crear aplicaciones web accesibles y robustas que resuelvan problemas reales.",
+    "viewProjects": "Ver Proyectos",
+    "contactMe": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio1": "Hola, soy Ricardo Pérez, desarrollador FullStack. Mi carrera en el desarrollo web como freelance comenzó en 2021 y, desde entonces, he crecido profesionalmente aprendiendo nuevas tecnologías.",
+    "bio2": "Me especializo en el desarrollo de aplicaciones web utilizando tecnologías modernas como Angular, React, Node.js, .NET y bases de datos SQL/NoSQL. Me centro en crear web/apps modernas e intuitivas respaldadas por arquitecturas backend robustas y escalables.",
+    "bio3": "En mi tiempo libre siempre intento actualizar mi repertorio. Creo firmemente en el aprendizaje continuo y siempre estoy explorando nuevas tecnologías y metodologías para mejorar mis habilidades.",
+    "recentTech": "Tecnologías con las que he trabajado recientemente:",
+    "education": "Educación y Certificaciones",
+    "degree": "Analista de sistemas",
+    "university": "Universidad Centroccidental “Lisandro Alvarado” • 2023",
+    "specialization": "",
+    "certifications": "Formación complementaria"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "job1": {
+      "title": "Desarrollador Freelancer",
+      "company": "",
+      "period": "2021 - Presente",
+      "description": [
+        "He aplicado mis conocimientos en JavaScript/TypeScript, C# y .NET en una variedad de proyectos para resolver desafíos complejos. ",
+        "Donde obtuve experiencia en el desarrollo con React, Angular, Node.js, Express.js y la gestión de diversas bases de datos (MongoDB, MS SQL Server, PostgreSQL), siempre buscando la mejor solución tecnológica."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "project0": {
+      "title": "Multitenant Lottery App con .NET Microservices, Angular, MongoDB and SqlServer. (En Desarrollo)",
+      "description": "Esta aplicación multitenant está construida sobre una arquitectura de microservicios en .NET, con servicios dedicados para autenticación y consultas que aprovechan EF Core para gestionar datos en SQL Server y MongoDB de forma híbrida. En el frontend, una SPA desarrollada en Angular y TypeScript ofrece una interfaz intuitiva para la gestión de sorteos y rifas, comunicándose con los microservicios vía HTTP y manteniendo la configuración aislada por tenant."
+    },
+    "project1": {
+      "title": "Plataforma de E-commerce",
+      "description": "Una plataforma de comercio electrónico completa con carrito de compras, pasarela de pagos y panel de administración."
+    },
+    "project2": {
+      "title": "App de Gestión de Tareas",
+      "description": "Aplicación de gestión de tareas con funcionalidades de arrastrar y soltar, etiquetas personalizadas y colaboración en tiempo real."
+    },
+    "project3": {
+      "title": "Dashboard del Clima",
+      "description": "Dashboard interactivo que muestra pronósticos del tiempo en tiempo real con visualizaciones de datos y alertas personalizadas."
+    },
+    "project4": {
+      "title": "Plataforma de Blog",
+      "description": "Plataforma de blog con editor de texto enriquecido, sistema de comentarios y análisis de tráfico integrado."
+    },
+    "code": "Código",
+    "demo": "Demo",
+    "moreProjects": "Más proyectos en GitHub",
+    "viewRepo": "Ver Repositorio"
+  },
+  "contact": {
+    "whatsNext": "¿Qué sigue?",
+    "title": "Ponte en contacto",
+    "description": "Actualmente estoy buscando nuevas oportunidades y mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible por responderte!",
+    "name": "Nombre",
+    "email": "Email",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "sendButton": "Enviar Mensaje",
+    "alternateContact": "También puedes contactarme directamente a través de:",
+    "rights": "Todos los derechos reservados",
+    "sendEmail": "Enviar correo"
+  },
+  "footer": {
+    "designed": "Diseñado y desarrollado por"
+  },
+  "languageSwitcher": {
+    "en": "Inglés",
+    "es": "Español"
+  }
+}
