@@ -1,5 +1,5 @@
 import { Box, Container, Typography, IconButton } from "@mui/material"
-import { GitHub, LinkedIn, Twitter } from "@mui/icons-material"
+import { GitHub, LinkedIn } from "@mui/icons-material"
 import { useTheme } from "@/app/core/hooks/use-theme"
 
 interface FooterProps {

@@ -1,6 +1,6 @@
 import {useCallback, useEffect, useState} from "react"
 import { useTheme } from "@/app/core/hooks/use-theme"
-import {AppBar, Toolbar, Typography, Box, IconButton, useMediaQuery, Avatar} from "@mui/material"
+import {AppBar, Toolbar, Box, IconButton, useMediaQuery, Avatar} from "@mui/material"
 import { Menu as MenuIcon, DarkMode, LightMode } from "@mui/icons-material"
 import LanguageSwitcher from "@/app/layout/components/header/language-switcher"
 import NavMenu from "@/app/layout/components/header/nav-menu"
