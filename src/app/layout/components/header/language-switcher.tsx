@@ -30,7 +30,7 @@ export default function LanguageSwitcher({ lang, dictionary }: LanguageSwitcherP
 
     const handleLanguageChange = (locale: string) => {
         // Navegar a la misma ruta pero con diferente idioma
-        navigate(`/${locale}`)
+        navigate(`/PortfolioSPA/${locale}`)
         handleClose()
     }
 

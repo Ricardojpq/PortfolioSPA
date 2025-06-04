@@ -5,8 +5,8 @@ export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Navigate to="/es" replace />} />
-                <Route path="/:lang" element={<App />} />
+                <Route path="PortfolioSPA/" element={<Navigate to="es" replace />} />
+                <Route path="PortfolioSPA/:lang" element={<App />} />
             </Routes>
         </BrowserRouter>
     )

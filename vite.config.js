@@ -8,6 +8,7 @@ var __filename = fileURLToPath(import.meta.url);
 var __dirname = path.dirname(__filename);
 export default defineConfig({
     plugins: [react(), tailwindcss()],
+    base: '/PortfolioSPA/',
     resolve: {
         alias: {
             "@": path.resolve(__dirname, "./src"),
